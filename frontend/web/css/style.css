@@ -1,0 +1,101 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+img.logo{
+  width: 90px;
+  height: auto;
+  max-height: -webkit-fill-available;
+}
+
+img.paral{
+  opacity:0.5 !important;
+}
+
+.sidenav-trigger {
+  color: #0e1f3f;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  /* height: auto; */
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    /* top: 40%; */
+  }
+  /* .parallax-container{
+    display: block;
+    overflow: auto !important;
+  } */
+  #index-banner .section {
+    /* top: 10%; */
+  }
+}
+
+.packet{
+  height: auto;
+  min-height: 450px;
+}
+
+@media only screen and (max-width : 600px) {
+  .packet{
+    display: block;
+    overflow-y: auto !important;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    bottom: 10%;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.waves-effect.waves-brown .waves-ripple {
+  /* The alpha value allows the text and background color
+  of the button to still show through. */
+   background-color: rgba(121, 85, 72, 0.65);
+ }
+
+ .command-text{
+  color: #212552 !important;
+  font-style: italic;
+  font-size: 14px;
+ }
+
+ .command-name{
+  font-size: 11px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.87);
+ }

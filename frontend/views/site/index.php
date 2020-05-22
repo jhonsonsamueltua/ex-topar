@@ -13,12 +13,13 @@ $this->title = 'Desa Wisata Parhitean';
                 <h5 class="header col s12 light">Memandu anda mengarungi dan menikmati Fun <br> & <br> Extreme Rafting Sungai Asahan<br></h5>
             </div>
             <div class="row center">
-                <a href="#" class="btn-large waves-effect waves-light teal lighten-1">Lihat Paket Wisata</a>
+                <a href="#" class="waves-effect waves-light btn-large">Lihat Paket Wisata</a>
+                <!-- <a href="#" class="btn-large waves-effect waves-light teal lighten-1">Lihat Paket Wisata</a> -->
             </div>
             <br><br>
         </div>
         </div>
-        <div class="parallax"><img src="images/b.png" alt="Unsplashed background img 1"></div>
+        <div class="parallax"><img src="images/top-banner.png" alt="Unsplashed background img 1"></div>
     </div>
 
     <div class="container">
@@ -32,119 +33,48 @@ $this->title = 'Desa Wisata Parhitean';
     </div>
 
   <div class="parallax-container packet">
-    <div class="section">
-    <div class="container">
-        <h3 class="header center teal-text text-lighten-3">PAKET WISATA</h3>
-        <div class="row" style="margin-top:30px;">
-          <div class="grid-example col s12 m4">
-              <div class="card sticky-action">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="images/extrim.jpeg">
-                </div>
-                <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4">FUN RAFTING<i class="material-icons right">more_vert</i></span>
-                  <h4 style="color: #20333a;"><b>Rp 200.000</b><font style="color:#3a3939; font-size: 14pt;">/Orang</font></h4>
-                </div>
-                <div class="card-action">
-                  <div class="row center">
-                    <button class="btn waves-effect waves-light" type="submit" name="action">PESAN
-                      <i class="material-icons right">send</i>
-                    </button>
-                  </div>
-                </div>
-                <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">Info<i class="material-icons right">close</i></span>
-                  <p>
-                    <ul class="collection" style="color:red">
-                      <li class="collection-item">Alvin</li>
-                      <li class="collection-item">Alvin</li>
-                      <li class="collection-item">Alvin</li>
-                      <li class="collection-item">Alvin</li>
-                      <li class="collection-item">Alvin</li>
-                      <li class="collection-item">Alvin</li>
-                      <li class="collection-item">Alvin</li>
-                      <li class="collection-item">Alvin</li>
-                    </ul>
-                  </p>
-                </div>
-              </div>
-          </div>
-          <div class="grid-example col s12 m4">
-              <div class="card sticky-action">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="images/extrim.jpeg">
-                </div>
-                <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4">FUN RAFTING<i class="material-icons right">more_vert</i></span>
-                  <h4 style="color: #20333a;"><b>Rp 200.000</b><font style="color:#3a3939; font-size: 14pt;">/Orang</font></h4>
-                </div>
-                <div class="card-action">
-                  <div class="row center">
-                    <button class="btn waves-effect waves-light" type="submit" name="action">PESAN
-                      <i class="material-icons right">send</i>
-                    </button>
-                  </div>
-                </div>
-                <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">Info<i class="material-icons right">close</i></span>
-                  <p>
-                    <ul class="collection" style="color:red">
-                      <li class="collection-item">Alvin</li>
-                      <li class="collection-item">Alvin</li>
-                      <li class="collection-item">Alvin</li>
-                      <li class="collection-item">Alvin</li>
-                      <li class="collection-item">Alvin</li>
-                      <li class="collection-item">Alvin</li>
-                      <li class="collection-item">Alvin</li>
-                      <li class="collection-item">Alvin</li>
-                    </ul>
-                  </p>
-                </div>
-              </div>
-          </div>
-          <div class="grid-example col s12 m4">
-              <div class="card sticky-action">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="images/extrim.jpeg">
-                </div>
-                <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4">FUN RAFTING<i class="material-icons right">more_vert</i></span>
-                  <h4 style="color: #20333a;"><b>Rp 200.000</b><font style="color:#3a3939; font-size: 14pt;">/Orang</font></h4>
-                </div>
-                <div class="card-action">
-                  <div class="row center">
-                    <button class="btn waves-effect waves-light" type="submit" name="action">PESAN
-                      <i class="material-icons right">send</i>
-                    </button>
-                  </div>
-                </div>
-                <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">Info<i class="material-icons right">close</i></span>
-                  <p>
-                    <ul class="collection" style="color:red">
-                      <li class="collection-item">Alvin</li>
-                      <li class="collection-item">Alvin</li>
-                      <li class="collection-item">Alvin</li>
-                      <li class="collection-item">Alvin</li>
-                      <li class="collection-item">Alvin</li>
-                      <li class="collection-item">Alvin</li>
-                      <li class="collection-item">Alvin</li>
-                      <li class="collection-item">Alvin</li>
-                    </ul>
-                  </p>
-                </div>
-              </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img class="paral" src="images/pa.png" alt="Unsplashed background img 2"></div>
-  </div>
+      <div class="container center">
+        <h3 class="header font-packet">PAKET WISATA</h3>
 
+          <div id="price">
+            <!--price tab-->
+            <div class="plan">
+                <div class="plan-inner">
+                <div class="entry-title" style="background-image: url(images/extrim.jpeg);background-size: cover;">
+                    <h3>Fun Rafting</h3>
+                    <div class="price">200.<font style="font-size: medium;">000</font><span>/per orang</span>
+                    </div>
+                </div>
+                <div class="entry-content">
+                  <ul>
+                    <li><strong>1x</strong> option 1</li>
+                    <li><strong>2x</strong> option 2</li>
+                    <li><strong>3x</strong> option 3</li>
+                    <li><strong>Free</strong> option 4</li>
+                    <li><strong>Unlimited</strong> option 5</li>
+                  </ul>
+              </div>
+                <div class="row center">
+                    <a href="https://web.whatsapp.com/send?phone=6281362250734&text=Saya ingin bertanya \n sesuatu" target="blank">
+                        <button class="btn waves-effect waves-light" type="submit" name="action">PESAN
+                        <i class="material-icons right">send</i>
+                        </button>
+                    </a> 
+
+                </div>
+                </div>
+            </div>
+            <!-- end of price tab-->
+          </div>
+
+      </div>
+    <div class="parallax"><img class="paral" src="images/pa.png" style="opacity: 1 !important;" alt="Unsplashed background img 2"></div>
+  </div>
+  
   <!-- <div class="container"> -->
     <div class="section">
     <h3 class="header center teal-text text-lighten-3">MENGAPA TOPAR ?</h3>
-      <div class="row" style="margin-top:40px;background-image: url(images/why.png);background-repeat: no-repeat;">
+      <div class="row why-content">
         <div class="col s12 m1"></div>
         <div class="col s12 m4"></img> </div>
         <div class="col s12 m2" style="background-color: #d1d1d1;">
@@ -184,16 +114,13 @@ $this->title = 'Desa Wisata Parhitean';
       <div class="row" style="margin-top: -30px;margin-bottom: -30px;">
         <div class="col s12 m4 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h2 style="margin-top: 150px;    text-align: center;"><a class="btn waves-effect waves-teal btn-large" style="background-color: whitesmoke;    color: #0e1e3f;    font-size: 35px;">Souvenir <i class="material-icons right">send</i></a></h2>
-          <!-- <a class="waves-effect waves-light btn-large"><i class="material-icons left">send</i>Pesan</a>
-          <a href="#!" class="btn waves-effect waves-teal"><i class="material-icons left">send</i>Pesan</a> -->
+          <h2 style="margin-top: 150px;    text-align: center;"><a class="btn waves-effect waves-teal btn-large" style="background-color: whitesmoke;    color: #211e1e;    font-size: 35px;">Souvenir <i class="material-icons right">send</i></a></h2>
         </div>
         <div class="col s12 m8">
           <div class="carousel">
-            <a class="carousel-item" href="#one!"><img src="images/s1.jpeg"></a>
-            <a class="carousel-item" href="#two!"><img src="images/s2.jpeg"></a>
-            <!-- <a class="carousel-item" href="#three!"><img src="images/s3.jpeg"></a> -->
-            <a class="carousel-item" href="#four!"><img src="images/s4.jpeg"></a>
+            <a class="carousel-item" href="#one!"><img src="images/p1.png"></a>
+            <a class="carousel-item" href="#two!"><img src="images/p2.png"></a>
+            <a class="carousel-item" href="#four!"><img src="images/p3.png"></a>
           </div>
         </div>
       </div>
@@ -202,7 +129,7 @@ $this->title = 'Desa Wisata Parhitean';
 
   <div class="section">
     <h3 class="header center teal-text text-lighten-3">APA KOMENTAR PENGUNJUNG ?</h3>
-      <div class="row" style="margin-top:40px;background-image: url(images/k-banner.png);background-repeat: no-repeat;">
+      <div class="row" style="margin-top:40px;background-image: url(images/k-banner-2.png);background-repeat: no-repeat;">
         <div class="container"> 
           <div class="row">
             <div class="col s12 m10" style="margin-bottom: 0px;">

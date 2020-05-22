@@ -78,6 +78,76 @@ class SiteController extends Controller
     }
 
     /**
+     * Displays tentang-kami page.
+     *
+     * @return mixed
+     */
+    public function actionTentangKami()
+    {
+        return $this->render('tentang-kami');
+    }
+
+    /**
+     * Displays wisata page.
+     *
+     * @return mixed
+     */
+    public function actionWisata()
+    {
+        return $this->render('wisata');
+    }
+
+    /**
+     * Displays wisata page.
+     *
+     * @return mixed
+     */
+    public function actionDetailWisata()
+    {
+        return $this->render('detail-wisata');
+    }
+
+    /**
+     * Displays paket-wisata page.
+     *
+     * @return mixed
+     */
+    public function actionPaketWisata()
+    {
+        return $this->render('paket-wisata');
+    }
+
+    /**
+     * Displays souvenir page.
+     *
+     * @return mixed
+     */
+    public function actionSouvenir()
+    {
+        return $this->render('souvenir');
+    }
+
+    /**
+     * Displays galeri page.
+     *
+     * @return mixed
+     */
+    public function actionGaleri()
+    {
+        return $this->render('galeri');
+    }
+
+    /**
+     * Displays blog page.
+     *
+     * @return mixed
+     */
+    public function actionBlog()
+    {
+        return $this->render('blog');
+    }
+
+    /**
      * Logs in a user.
      *
      * @return mixed

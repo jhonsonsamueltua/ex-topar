@@ -3,6 +3,17 @@
 /* @var $this yii\web\View */
 
 $this->title = 'Desa Wisata Parhitean';
+
+$devicesmobile = ["iPhone", "Android", "webOS", "BlackBerry", "iPad", "iPod"];
+// check if is a mobile
+$isMobile = false;
+foreach ($devicesmobile as $key => $device) {
+  if (strpos($_SERVER['HTTP_USER_AGENT'],$device)){
+    $isMobile = true;
+    break;
+  }
+}
+
 ?>
 <div class="site-index">
     <div id="index-banner" class="parallax-container">
@@ -55,7 +66,7 @@ $this->title = 'Desa Wisata Parhitean';
                   </ul>
               </div>
                 <div class="row center">
-                    <a href="https://web.whatsapp.com/send?phone=6281362250734&text=Saya ingin bertanya \n sesuatu" target="blank">
+                    <a href=<?= $isMobile ? "whatsapp://send?phone=6281362250734&text=test" : "https://web.whatsapp.com/send?phone=6281362250734&text=test" ?> target="blank">
                         <button class="btn waves-effect waves-light" type="submit" name="action">PESAN
                         <i class="material-icons right">send</i>
                         </button>

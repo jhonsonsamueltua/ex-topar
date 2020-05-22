@@ -112,7 +112,7 @@ AppAsset::register($this);
   </div>
   <div class="footer-copyright">
     <div class="container center" >
-    © 2020 Toba Parhitean Rafting
+    © 2020 Toba Parhitean Rafting | Device <?php echo $_SERVER['HTTP_USER_AGENT']; ?>
     </div>
   </div>
 </footer>
